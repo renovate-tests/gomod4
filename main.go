@@ -3,7 +3,7 @@ package main // import "github.com/mycodesmells/golang-examples/modules"
 import (
     "flag"
     "fmt"
-
+    "rsc.io/quote"
     "github.com/pkg/errors"
 )
 
@@ -17,6 +17,7 @@ func main() {
 }
 
 func greet(name string) error {
+    fmt.Println(quote.Hello())
     if name == "" {
         return errors.New("no name provided")
     }
