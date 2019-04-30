@@ -1,3 +1,4 @@
 {
+  "excludeCommitPaths": ["vendor/golang.org/**"],
   "postUpdateOptions": ["gomodTidy"]
 }
