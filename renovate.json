@@ -1,4 +1,7 @@
 {
+  "constraints": {
+    "go": "1.16"
+  },
   "excludeCommitPaths": ["vendor/golang.org/**"],
   "postUpdateOptions": ["gomodTidy"]
 }
